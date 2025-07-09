@@ -1,12 +1,13 @@
 [# VoiceDataToText](https://uni928.github.io/VoiceDataToText/)
 
-音声データを SRT 形式で文字起こしします。
-Open AI の API Key が必要です。
+音声データを SRT 形式で文字起こしします。Open AI の API Key が必要です。
 
 現在の Open AI の料金体系ならば、最低チャージ金額の 5 ドルをチャージすれば 1 か月以上使えると思います。
 
 残高が不足した場合の自動チャージは OFF にして（API Key の流出対策）、デビットカード（被害にあった場合の被害を最小限に抑える）でチャージするのが比較的安心です。
 
+25MB 以上のデータは弾かれます。25MB 以下の音声データを文字起こしする必要があります。
+
 ファイル名の後ろに数字がある場合は、時間を[数字×10]分後ろにずらします。
 
-[動画ファイルを音声ファイルに変換する exe ファイルはこちら](https://drive.google.com/file/d/1hb4z2ueRRZejwp80tFLzYdFQ92TKRDxk/view) （ウイルスチェックで弾かれた場合は諦めて下さい）
+[動画ファイルを音声ファイルに変換する exe ファイルはこちら](https://drive.google.com/file/d/1hb4z2ueRRZejwp80tFLzYdFQ92TKRDxk/view) （ウイルスチェックで弾かれた場合は諦めて下さい）（文字起こし API の仕様に合わせて 10 分ごとに分割します）
