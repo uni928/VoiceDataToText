@@ -1,6 +1,6 @@
 [# VoiceDataToText](https://uni928.github.io/VoiceDataToText/)
 
-※python 環境が必要ですが、ローカルに Whisper を落とす事で、Open AI の API Key 無しで完全無料で使用できるらしいです。SRT 対応の方の html ファイルを Whisper をローカルに落として動作できるよう修正する作業を ChatGPT に依頼する方法も良いかもしれません。
+※python 環境が必要ですが、ローカルに Whisper を落とす事で、Open AI の API Key 無しで完全無料で使用できるらしいです。html ファイルを Whisper をローカルに落として動作できるよう修正する作業を ChatGPT に依頼する方法も良いかもしれません。
 
 音声データを SRT 形式で文字起こしします。Whisper をローカルに落とさない場合は Open AI の API Key が必要です。
 
